@@ -1,0 +1,44 @@
+#imgheader {
+    width: 10%;
+}
+#headingTxt {
+    display: inline;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#header {
+    background-color: blue;
+}
+#memImg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.caption{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.container{
+   display: inline-block;
+   position: relative;
+   text-align: center;
+   color: rgb(64, 11, 124);
+}
+#memTop{
+    position: absolute;
+   top: 5%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+    
+}
+#membottom{
+        position: absolute;
+        bottom: 8px;
+        right: 50%;
+        transform: translate(50%, 50%);
+}
